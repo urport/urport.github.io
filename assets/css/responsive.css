@@ -1,0 +1,417 @@
+/*------------------------------------------------------------------
+[Range Stylesheet]
+
+[Table of contents]
+
+1. Range Max_319px
+2. Range Min_320px Max_479px
+3. Range Max_479px
+4. Range Min_480px Max_767px
+5. Range Max_767px
+6. Range Min_768px
+7. Range Max_960px
+8. Range Max_1024px
+9. Range Min_1024px
+10. Range Min_1367px
+11. Range Min_768px and Max_1023px
+
+-------------------------------------------------------------------*/
+
+/*--- 1. Range Max_319px ---*/
+@media only screen and (max-width: 319px) {
+    .open-hours label:first-child {
+        width: 40%;
+    }
+    .open-hours label:nth-child(2) {
+        width: 55%;
+    }
+    .sliding-menu .logo h3 {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .cd-nav-container .menu-header{
+        padding: 15px;
+    }
+    .cd-close-nav{
+        right: 10px
+    }
+}
+
+
+/*--- 1. Range Min_320px Max_479px ---*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .sliding-menu .logo h3 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .cd-nav-container .menu-header{
+        padding: 20px;
+    }
+
+
+}
+
+
+/*--- 3. Range Max_479px ---*/
+@media only screen and (max-width: 479px) {
+
+
+    body .header-nav-actions .donate-now {
+        margin-bottom: 15px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    body .header-nav-actions {
+        float: none;
+        text-align: center;
+    }
+    body .navbar-brand {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    .overlay nav {
+        height: 70%;
+        font-size: 34px;
+    }
+    .grid figure.blog_post{
+        width: 100%;
+    }
+    .page-title.text-left {
+        margin: 0 !important;
+    }
+    body .page-title span {
+        font-size: 13px;
+    }
+    #filter-main-nav .filter {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        width: 80%;
+    }
+    p.header-btns{
+        display: none;
+    }
+    .open-hours label:first-child {
+        width: 20%;
+    }
+}
+
+
+/*--- 4. Range Min_480px Max_767px ---*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .grid figure.blog_post{
+        width: 50%;
+    }
+
+
+
+
+}
+@media only screen and (min-width: 100px) and (max-width: 319px) {
+    .amaezi-fullscreen-header{
+        background-size: 350% auto;
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 619px) {
+    .amaezi-fullscreen-header{
+        background-size: 300% auto;
+    }
+
+}
+@media only screen and (min-width: 620px) and (max-width: 990px) {
+    .amaezi-fullscreen-header{
+        background-size: 150% auto;
+    }
+
+
+
+
+}
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+    .amaezi-fullscreen-header video {
+        transform: scale(2);
+        -webkit0transform: scale(2);
+    }
+
+
+
+}
+@media only screen and (max-width: 599px) {
+    .amaezi-fullscreen-header video {
+        transform: scale(3);
+        -webkit0transform: scale(3);
+    }
+}
+
+/*--- 5. Range Max_767px ---*/
+@media only screen and (max-width: 767px) {
+
+
+    body .navbar.navbar-default {
+        float: left;
+        margin-left: 30px;
+    }
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    .header-nav-actions .donate-now {
+        margin-right: 15px;
+        margin-top: 23px;
+    }
+    body .navbar-default .navbar-toggle {
+        float: left;
+        margin-top: 28px;
+    }
+    body .navbar-header {
+        text-align: center;
+    }
+    body .sticky-header {
+        padding: 5px 0;
+    }
+    body .dropdown-menu > li {
+        border-bottom: 0 none;
+    }
+    body .navbar .dropdown > a.dropdown-toggle::after {
+        top: 3px;
+    }
+    body .navbar-nav > li:first-child > a {
+        padding-left: 15px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding: 8px 15px;
+    }
+    body .navbar-nav > li > a {
+        font-weight: bold;
+        padding: 5px 15px;
+    }
+    .fundraising-contact-details > a {
+        display: none;
+    }
+    body .daily-specials-shortcode .day-details-content {
+        padding: 5px;
+        text-align: center;
+    }
+    body .single-menu-item .price {
+        bottom: auto;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    body .flex-panel {
+        display: block;
+    }
+    body .members-shortcode .col-md-4{
+        overflow: hidden;
+    }
+    body .single-post{
+        display: block;
+    }
+    body .post-details-holder {
+        overflow: hidden;
+    }
+    body .single-post .post-details {
+        padding: 10px;
+        overflow: hidden;
+    }
+    body .daily-specials-shortcode .day-details-content .price {
+        font-size: 20px;
+        position: unset;
+        right: auto;
+        top: auto;
+        clear: both;
+        width: 100%;
+        display: block;
+    }
+    body .daily-specials-shortcode .day-name {
+        font-size: 30px;
+    }
+    body .theme-accordion-menu {
+        margin: 0 auto;
+    }
+    .top-header .social-links{
+        display: none;
+    }
+    .amaezi_header_content{
+        top: 25%;
+    }
+    .sticky-social-links.pull-right {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .page-title > span:first-child {
+        display: none;
+    }
+    .copyright-informations {
+        text-align: center;
+    }
+    footer {
+        padding: 0 15px;
+    }
+    .portfolio-shortcode ul li {
+        margin-bottom: 20px;
+    }
+    .members-shortcode .col-md-4 {
+        margin-bottom: 20px;
+    }
+    .sticky-header .page-title {
+        margin: 5px 0 15px;
+        text-align: center;
+    }
+    .sticky-header-content {
+        width: 70%;
+    }
+    .search-input {
+        padding: 0 25% 0 10px;
+    }
+    .amaezisearch.open .search-input {
+        font-size: 30px;
+    }
+    .amaezisearch.open .amaezisearch-submit {
+        -webkit-transform: translate3d(0,-50%,0) scale3d(0.5,0.5,1);
+        transform: translate3d(0,-50%,0) scale3d(0.5,0.5,1);
+    }
+    .amaezi_header_title {
+        font-size: 35px;
+    }
+    .amaezi_header_quotes .item{
+        font-size: 16px;
+    }
+    #filter-main-nav .filters{
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+    .amaezi_header_content{
+        top: 20%;
+    }
+    p.header-btns a.btn {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .amaezi_header_title{
+        font-size: 70px;
+    }
+    .fundraising-contact-details > a {
+        display: none;
+    }
+    body .navbar-nav > li > a {
+        padding: 10px;
+    }
+    body .navbar .dropdown > a.dropdown-toggle::after {
+        right: 1px;
+        top: 12px;
+    }
+
+
+}
+
+
+/*--- 7. Range Max_960px ---*/
+@media screen and (max-width: 960px) {
+    .contact-form .row,
+    .contact-form .row input#name {
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+
+/*--- 8. Range Max_1024px ---*/
+@media only screen and (max-width: 1024px) {
+
+    .sticky-header .page-title{
+        text-align: center;
+    }
+    .sticky-header-content > div {
+        padding: 0 8%;
+    }
+    .sticky-social-links {
+        display: none;
+    }
+    .page-title span:last-child {
+        margin: 0;
+    }
+    .sticky-header{
+        padding: 20px 0;
+    }
+    .amaezisearch{
+        top: 20px;
+    }
+    .open-hours label:first-child {
+        width: 20%;
+    }
+}
+
+
+
+@media screen and (max-width: 1110px) {
+    .menu-container {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .menu-container {
+        width: 100%;
+        height: auto;
+        max-width: 460px;
+        -webkit-perspective: 0px;
+        perspective: 0px;
+    }
+    .menu-wrapper, 
+    .menu-wrapper > div,
+    .menu-wrapper > div > div {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .menu-wrapper > div > div{
+        margin-bottom: 10px;
+        box-shadow: 
+            inset 0 0 0 16px #fff, 
+            inset 0 0 0 17px #e6b741, 
+            inset 0 0 0 18px #fff, 
+            inset 0 0 0 19px #e6b741, 
+            inset 0 0 0 20px #fff, 
+            inset 0 0 0 21px #e6b741,
+            0 3px 5px rgba(0,0,0,0.2);
+    }
+    .menu-container .menu-back,
+    .menu-container.menu-open .menu-cover,
+    .menu-container.menu-open .menu-right {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    .menu-overlay, .menu-middle .menu-overlay {
+        background: transparent;
+    }
+    .menu-container .food-modal {
+        position: fixed;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        margin: 0 0 0 -40%;
+        -webkit-transform: translateZ(0px);
+        transform: translateZ(0px);
+        -webkit-transition: opacity 0.6s ease-in-out 0s;
+        transition: opacity 0.6s ease-in-out 0s;
+    }
+    .menu-container.menu-in .menu-cover,
+    .menu-container.menu-in .menu-right,
+    .menu-container.menu-in .menu-wrapper {
+        -webkit-transform: rotateY(0deg);
+        -webkit-transition-delay: 0s;
+        transform: rotateY(0deg);
+        transition-delay: 0s;
+    }
+}
