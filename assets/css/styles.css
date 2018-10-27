@@ -45,6 +45,64 @@
 12. Fancy Icons Tabs 
 -------------------------------------------------------------------*/
 
+/*! system-font.css v2.0.2 | CC0-1.0 License | github.com/jonathantneal/system-font-css */
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Segoe UI Light"), local("Ubuntu Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 300;
+    src: local(".SFNSText-LightItalic"), local(".HelveticaNeueDeskInterface-Italic"), local(".LucidaGrandeUI"), local("Segoe UI Light Italic"), local("Ubuntu Light Italic"), local("Roboto-LightItalic"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 400;
+    src: local(".SFNSText-Italic"), local(".HelveticaNeueDeskInterface-Italic"), local(".LucidaGrandeUI"), local("Segoe UI Italic"), local("Ubuntu Italic"), local("Roboto-Italic"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 500;
+    src: local(".SFNSText-Medium"), local(".HelveticaNeueDeskInterface-MediumP4"), local(".LucidaGrandeUI"), local("Segoe UI Semibold"), local("Ubuntu Medium"), local("Roboto-Medium"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 500;
+    src: local(".SFNSText-MediumItalic"), local(".HelveticaNeueDeskInterface-MediumItalicP4"), local(".LucidaGrandeUI"), local("Segoe UI Semibold Italic"), local("Ubuntu Medium Italic"), local("Roboto-MediumItalic"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 700;
+    src: local(".SFNSText-Bold"), local(".HelveticaNeueDeskInterface-Bold"), local(".LucidaGrandeUI"), local("Segoe UI Bold"), local("Ubuntu Bold"), local("Roboto-Bold"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 700;
+    src: local(".SFNSText-BoldItalic"), local(".HelveticaNeueDeskInterface-BoldItalic"), local(".LucidaGrandeUI"), local("Segoe UI Bold Italic"), local("Ubuntu Bold Italic"), local("Roboto-BoldItalic"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
 /*Font Family for titles*/
 .loader div,
 .daily-specials-shortcode .day-name,
@@ -97,7 +155,7 @@ figure.effect-ming h2,
 .blog-posts-shortcode .post-title,
 .single-menu-item .price,
 .section-title{
-    font-family: 'Arvo';
+    font-family: system-ui;
 }
 /*Font Family for content*/
 p,
@@ -114,7 +172,7 @@ blockquote,
 .daily-specials-shortcode .day-details-content h4,
 .amaezi_header_subtitle,
 .post-content p {
-    font-family: "Open Sans";
+    font-family: system-ui;
     font-weight: 300;
 }
 
@@ -2275,6 +2333,7 @@ section.section-work.related-works {
 .post-content h2.section-title,
 .section-title{
     margin: 0;
+    text-transform: uppercase;
 }
 body .pagination .active > a,
 body .pagination .active > a:focus,
@@ -4705,7 +4764,7 @@ a.viewdetails:hover,
     text-align: center;
     line-height: 14px;
     font-size: 15px;
-    font-family: Arial, sans-serif;
+    font-family: system-ui;
 }
 /* Transitions */
 .menu-wrapper,
