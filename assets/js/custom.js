@@ -275,7 +275,6 @@ jQuery( document ).ready(function() {
         navigation      : false, // Show next and prev buttons
         navigationText      : ["<i class='fa fa-long-arrow-left'></i>","<i class='fa fa-long-arrow-right'></i>"],
         pagination      : false,
-        autoPlay        : false,
         slideSpeed      : 700,
         paginationSpeed : 700,
         autoPlay : true,

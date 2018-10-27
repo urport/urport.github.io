@@ -294,7 +294,7 @@ p {
     align-self: center;
 }
 .flex-panel .align-self-bottom{
-    align-self: bottom;
+    align-self: baseline;
 }
 .post-content p:last-child {
     margin: 0;
@@ -916,8 +916,8 @@ body .pagination li a,
 }
 .navbar-brand {
     height: auto;
-    padding: 28px 0;
-    width: 198px;
+    padding: 20px 0;
+    width: 300px;
 }
 .navbar-right .dropdown-menu {
     border: 0 none;
@@ -5801,9 +5801,9 @@ a.viewdetails:hover,
 /*---------------------------------------------*/
 /*--- CSS FOR SAFARI ---*/
 /*---------------------------------------------*/
-::i-block-chrome, .dark-section .make-reservation select, 
-::i-block-chrome, .dark-section .make-reservation input, 
-::i-block-chrome, .dark-section .make-reservation textarea{
+.dark-section .make-reservation select,
+.dark-section .make-reservation input,
+.dark-section .make-reservation textarea{
     padding: 20px;
 }
 
