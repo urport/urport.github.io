@@ -557,14 +557,15 @@ footer {
 footer .footer-top {
     background-attachment: fixed;
     background-color: #021426;
-    background-image: url("../img/content/footer_bg-1.jpg");
+    background-image: url("../img/content/footer_bg-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 /*DARK COLOR*/
 .dark-section,
 .footer-bottom {
-    background-color: #1a1b22 !important;
+    background-color: #E3111A !important;
+    /*background: #E3111A url(../img/pattren.png);*/
 }
 .amaezi_header_content.dark-texts > p.amaezi_header_subtitle,
 .dark-texts > p,
@@ -974,7 +975,7 @@ body .pagination li a,
 }
 .navbar-brand {
     height: auto;
-    padding: 20px 0;
+    padding: 16px 0;
     width: 300px;
 }
 .navbar-right .dropdown-menu {
@@ -3223,7 +3224,7 @@ footer p {
 
 /* 9.2. Footer: Copyright */
 .footer-bottom {
-    padding: 30px 0;
+    padding: 20px 0;
     position: relative;
 }
 .instagram_slider .item {
@@ -3259,7 +3260,7 @@ footer .footer-top .menu .menu-item a {
     -webkit-transition: all 250ms ease-in-out 0s;
 }
 footer .footer-bottom .menu .menu-item a::after {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     content: "/";
     display: block;
     font-size: 12px;
@@ -3287,7 +3288,7 @@ footer .social_links > a {
     margin: 0;
 }
 footer .footer-bottom .menu .menu-item a {
-    color: #b4bbc2;
+    color: #fff;
     font-size: 17px;
     font-weight: 300;
     letter-spacing: normal;
@@ -3751,7 +3752,7 @@ input[type="search"] { /* reset normalize */
 }
 .amaezi-top {
     border-radius: 0 !important;
-    bottom: 30px;
+    bottom: 16px;
     display: inline-block;
     height: 30px;
     opacity: 0;
