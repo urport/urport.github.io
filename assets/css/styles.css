@@ -907,7 +907,7 @@ body .pagination li a,
     line-height: 1;
     margin: 0;
     opacity: 1;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 .amaezi_header_quotes {
     display: -webkit-flex;
