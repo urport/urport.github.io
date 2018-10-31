@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+
+    {% include head.html %}
+
+</head>
+
+<!-- BODY -->
+<body class="page-single-blog" id="body">
+
+{% include page-loader.html %}
+
+{% include header.html %}
+
+{% include breadcrumbs.html %}
+
+<!-- MAIN CONTAINER -->
+<div id="container" class="main-content">
+    <!-- Page content -->
+    <div class="container high-padding">
+        <div class="row">
+            <div class="col-md-8 main-container">
+                <!-- Post content -->
+                <div class="post-content animateIn" data-animate="fadeIn">
+                    {{ content }}
+                </div>
+                    <!-- Post details -->
+                    <div class="post-details animateIn" data-animate="fadeIn">
+                        <ul class="tags-list">
+                            <li><a data-toggle="tooltip" data-placement="top" data-original-title="6 Posts" href="#">political</a></li>
+                            <li><a data-toggle="tooltip" data-placement="top" data-original-title="9 Posts" href="#">govern</a></li>
+                            <li><a data-toggle="tooltip" data-placement="top" data-original-title="6 Posts" href="#">voting</a></li>
+                            <li><a data-toggle="tooltip" data-placement="top" data-original-title="6 Posts" href="#">election</a></li>
+                        </ul>
+                    </div>
+                    <!-- Post footer -->
+                    <div class="post-footer sharer animateIn" data-animate="fadeIn">
+                        <div class="share-this-post">
+                            <div class="share-title">Spread the word via:</div>
+                            <div class="share-via">
+                                <div class="social">
+                                    <a data-toggle="tooltip" data-placement="top" data-original-title="Share on Facebook" href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a data-toggle="tooltip" data-placement="top" data-original-title="Share on Twitter" href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a data-toggle="tooltip" data-placement="top" data-original-title="Share on Google+" href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a data-toggle="tooltip" data-placement="top" data-original-title="Share on LinkedIn" href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a data-toggle="tooltip" data-placement="top" data-original-title="Share on Reddit" href="#">
+                                        <i class="fa fa-reddit"></i>
+                                    </a>
+                                </div>
+                                <div class="social">
+                                    <a data-toggle="tooltip" data-placement="top" data-original-title="Share on Tumblr" href="#">
+                                        <i class="fa fa-tumblr"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="content-sidebar col-md-4">
+                {% include sidebar.html %}
+            </div>
+
+    </div>
+</div>
+
+    {% include sections/gallery.html %}
+
+</div>
+
+{% include footer.html %}
+
+{% include scripts.html %}
+
+</body>
+</html>
